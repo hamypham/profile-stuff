@@ -1,0 +1,113 @@
+
+body {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2{
+  font-color: #333333;
+  text-align: center;
+  font-weight: 100;
+}
+
+h3{
+  font-size: 1.25em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+p {
+  font-color: #666666;
+  font-weight: 300;
+}
+
+.card {
+  padding: 40px;
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 20px auto;
+  box-shadow: 1px 1px 4px #cccccc;
+}
+
+#profile_image {
+  border: 6px solid rgba(164, 232, 222, .5);
+  width: 200px;
+  border-radius: 100%;
+  box-shadow: 1px 1px 4px #e5e5e5;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+h2:nth-child(1) {
+    font-color: red;
+}
+
+ul{
+  padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: auto;
+}
+
+li a {
+  color: #666666;
+  font-weight: 300;
+  background-color: white;
+  border: 2px solid #A4E8DE;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+a:hover, a:active {
+    background-color: #A4E8DE;
+}
+
+#project-heading {
+  font-weight: 300;
+/*  font-size: 1.5em;
+*/  margin: 60px 0px 20px 0px;
+/*  text-transform: uppercase;
+*/}
+
+.project:hover{
+  width: 51% .6s ease-in;
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
